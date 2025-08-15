@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-image: url("wallpaper-TechnoTour (14).jpg");
+    background-attachment: fixed;
+    background-size: 1300px 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 27px;
+    font-size: 27px;
+}
+nav a:hover {
+    color: orange;
+}
+nav a:active {
+    color: green;
+}
+.UserName-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+}
+.UserName-box input {
+  padding: 19px;
+  font-size: 18px;
+  border: 9px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+.Email-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+}
+.Email-box input {
+    padding: 19px;
+    font-size: 18px;
+    border: 9px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.Password-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+}
+.Password-box input {
+    padding: 19px;
+    font-size: 18px;
+    border: 9px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.rPassword-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+}
+.rPassword-box input {
+    padding: 19px;
+    font-size: 18px;
+    border: 9px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+button {
+    display: flex;
+    padding: 12px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 470px;
+    transition: transform 0.6 ease;
+}
+button:hover {
+    background: orange;
+    transform: scale(1.12);
+}
+button:active {
+    background: green;
+    transform: scale(0.8);
+}
+p {
+    font-size: 18px;
+    margin-left: 470px;
+}
+p a {
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+}
+p a:hover {
+    text-decoration: underline;
+}
+p a:active {
+    color: green;
+}
